@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "semio"
+version = "0.1.0"
+description = "SemIO allows designers to explicitly formalize design intent. This allows reuse, to split and parallelize work, producing more flexible systems."
+authors = ["Ueli Saluz <usaluz@posteo.de>"]
+license = "AGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.5"
+rhino3dm = "^7.15.0"
+compute-rhino3d = "^0.12.2"
+ghhops_server = "^1.5.3"
+Flask = "^2.2.2"
+pytest = "^7.2.0"
+networkx = "^2.8.8"
+mathutils = "^3.3.0"
+multipledispatch = "^0.6.0"
+pytest-lazy-fixture = "^0.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
